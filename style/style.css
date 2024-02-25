@@ -82,8 +82,6 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-
-
 /* BUTTONS */
 .btn {
     width: 100%;
@@ -93,10 +91,9 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 25px 0px;
-
 }
 
-button {
+.btn>a {
     /* Grey */
     background-color: hsl(0, 0%, 20%);
     /* White */
@@ -107,25 +104,14 @@ button {
     padding: 16px 0px;
     font-size: 1rem;
     font-weight: 700;
-}
-
-/* FOOTER */
-.attribution {
-    font-size: 0.8rem;
+    text-decoration: none;
     text-align: center;
-    padding: 5px 0px;
-}
-
-.attribution a {
-    color: hsl(75, 94%, 57%);
-    font-size: 0.8rem;
 }
 
 /* EFECTS */
-.btn>button:hover {
+.btn>a:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
-    transition: ease-in-out 350ms;
+    transition: ease-in-out 300ms;
     cursor: pointer;
-
 }
