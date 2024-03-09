@@ -1,0 +1,18 @@
+@media screen and (min-width: 1440px) {
+        .container {
+                width: 450px;
+                height: 700px;
+                transition: ease-in-out 500ms;
+        }
+
+        .btn {
+                width: 85%;
+                height: 50%;
+                gap: 15px;
+                padding: 20px 0px 0px;
+        }
+
+
+
+
+}
